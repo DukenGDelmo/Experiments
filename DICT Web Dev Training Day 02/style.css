@@ -1,0 +1,67 @@
+/* External CSS */
+/* p{
+    color:cadetblue;
+    font-weight: bold;
+    text-align: justify;
+} */
+
+/* CSS Selector
+    Simple selectors
+        - name
+        - class
+        - id
+    *Universal selector
+    *Group selector
+*/
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-size: 95%; */
+}
+
+
+a:active{
+    color:blue
+}
+a:hover{
+    color: green;
+}
+
+a{
+    text-decoration: none;
+}
+/* Universal selector */
+/* * {
+    color: brown;
+    margin: 0;
+    padding: 0;
+} */
+
+/* Group selector */
+/* h1, #paragraph1, ul, h3, p{
+    color:brown
+}
+#parapraph1{
+    text-decoration: underline;
+} */
+
+
+/* ID selector */
+/* #paragraph1{
+    color: brown;
+}
+#id2{
+    color: red;
+}
+.paragraph2{
+    color:violet;
+} */
+
+/* Class selector*/
+
+/* .paragraph1{
+    color:brown;
+    text-align: center;
+}
+.paragraph2{
+    color:red;
+} */

@@ -1,0 +1,62 @@
+/* Color values 
+    - color name
+    - rgb colors
+    - hsl colors
+    - rgba colors
+    - hsla colors
+*/
+
+pre{
+
+    color: yellow;
+
+}
+
+body{
+    
+    background-color:bisque;
+    background-image: url("images/mona-eendra-vC8wj_Kphak-unsplash.jpg");
+    /* background-size: 300px; */
+    background-repeat: no-repeat;
+    /* background-position: right top; */
+    background-attachment: fixed;
+
+    background: bisque url("images/mona-eendra-vC8wj_Kphak-unsplash.jpg") no-repeat fixed;
+}
+
+h1{
+    /* border: 5px;
+    border-style: solid;
+    border-color: brown; */
+    border: 3px solid brown;
+}
+
+h3{
+
+    border: 3px solid yellow;
+    border-radius: 7px;
+
+}
+
+p{
+    /* color by preset values */
+    /* color: blue; */
+    /* color by rgb values */
+    /* color: rgb(100, 200, 60); */
+    /* color: rgb(100, 200, 60, 0.7); */
+    /* color by hexadecimal values */
+    /* color: #RRGGBB; hexadecimal values range: 0-9 and A-F*/
+    /* color: #A950FF; */
+    /* color by hue, saturation, lightness*/
+    /* hue = 0-360 */
+    /* saturation = 0% - 100% */
+    /* lightness = 0% - 100% */
+    /* alpha = 0.0 - 1.0*/
+    /* color: hsl(20, 80%, 20%) */
+    /* color: hsl(20, 80%, 20%, 0.5);
+    background-color: burlywood; */
+    /* border: 3px solid blue; */
+    margin-left: 10px;
+    border-left: 3px solid red;
+    padding-left: 10px;
+}
